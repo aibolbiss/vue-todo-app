@@ -6,3 +6,7 @@ Vue.createApp({
     })
 }).mount('#app')
 ```
+# Во Vue можно вызывать несколько функции сразу (через запятую):
+```
+<button @click="remove(index), color()">Удалить</button>
+```
